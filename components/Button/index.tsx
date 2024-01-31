@@ -2,12 +2,14 @@ import { classNames } from '@/utils'
 import React from 'react'
 
 interface ButtonProps {
+  id: string
   children: any
   color?: string
   pills?: boolean
   className?: string
   size?: string
   disabled: boolean
+  onClick: any
 }
 
 const buttonSize: any = {
